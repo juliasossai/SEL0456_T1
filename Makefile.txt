@@ -1,11 +1,11 @@
 CC := gcc
 
-objetos = main1.c
+objetos = main.c
 
-all: main1.o
-	gcc -o main1 $(objetos)	
+all: main.o
+	gcc -o main $(objetos)	
 
-main1.o: main1.c
+main.o: main.c
 
 run:
-	./main1
+	./main

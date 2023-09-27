@@ -1,18 +1,10 @@
 #include <stdio.h>
+#include <math.h>
 
+#include "func1.h"
+#include "func2.h"
+#include "func3.h"
 
-double func1(double x){
-	return x+x;
-}
-
-
-double func2(double x){
-	return x*func1(x);
-}
-
-double func3(double x){
-	return x*func1(x)*func2(x);
-}
 
 int main() {
 	printf("SEL0456 Exercicio 1\n");

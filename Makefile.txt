@@ -1,0 +1,11 @@
+CC := gcc
+
+objetos = main1.c
+
+all: main1.o
+	gcc -o main1 $(objetos)	
+
+main1.o: main1.c
+
+run:
+	./main1
